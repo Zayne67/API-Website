@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:wght@700&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Individual CSS -->
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <iframe src='https://my.spline.design/iphone13copy-dfca4e6120b943120678c7d3809fc601/' frameborder='0' width='100%' height='100%'></iframe>
+    <div class="container headerGame">
+        <div class="row align-items-start">
+        <div class="header col position-absolute top-0 start-0 animate__animated animate__bounceInLeft animate__delayed-4s animate__slow">
+            <a href="home.html">Return</a>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="music">
+        <div id="app-cover">
+            <div id="bg-artwork"></div>
+            <div id="bg-layer"></div>
+            <div id="player">
+              <div id="player-track">
+                <div id="album-name"></div>
+                <div id="track-name"></div>
+                <div id="track-time">
+                  <div id="current-time"></div>
+                  <div id="track-length"></div>
+                </div>
+                <div id="s-area">
+                  <div id="ins-time"></div>
+                  <div id="s-hover"></div>
+                  <div id="seek-bar"></div>
+                </div>
+              </div>
+              <div id="player-content">
+                <div id="album-art">
+                  <img src="image/gambino.jpeg" class="active" id="_1">
+                  <img src="image/frank.jpeg" id="_2">
+                  <img src="image/jeremy.jpeg" id="_3">
+                  <img src="image/d4vd.webp" id="_4">
+                  <img src="image/joji.png" id="_5">
+                  <div id="buffer-box">Buffering ...</div>
+                </div>
+                <div id="player-controls">
+                  <div class="control">
+                    <div class="button" id="play-previous">
+                      <i class="fas fa-backward"></i>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="button" id="play-pause-button">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div class="control">
+                    <div class="button" id="play-next">
+                      <i class="fas fa-forward"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+    <!-- Online Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="music.js"></script>
+</html>

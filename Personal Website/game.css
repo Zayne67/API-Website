@@ -1,0 +1,72 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #80d8c4;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  z-index: 0;
+}
+
+.frame {
+  width: 26%;
+  height: 40%;
+  top: 10%;
+  right: 20.7%;
+  border-radius: 10%;
+}
+
+.headerGame a {
+  z-index: max;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+  color: #0d50ed;
+  text-decoration: none;
+}
+
+.headerGame a:hover {
+  margin: 20px;
+  background-color: #3232326e;
+  color: #f8c82b;
+}
+
+.headerGame p {
+  z-index: max;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  color: #0d50ed;
+  text-decoration: none;
+}
+
+.header a {
+  z-index: max;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80px;
+  color: #0d50ed;
+  text-decoration: none;
+}
+
+.headerGame a:hover {
+  margin: 20px;
+}
+
+.game {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f8c82b;
+  width: 50%;
+  height: 100%;
+  -webkit-box-shadow: 0px 10px 10px 10px;
+          box-shadow: 0px 10px 10px 10px;
+  border-radius: 5% 5% 0px 0px;
+}
+/*# sourceMappingURL=game.css.map */
